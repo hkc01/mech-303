@@ -1,0 +1,17 @@
+clc, clear
+
+sYield= 250; % Yield Strength [MPa]
+
+% ANSYS Data of Max Equivalent Strength [MPa]
+MaxEqStress= [26.701799498112972
+18.213197274778675
+138.01963986350549
+138.02245803728275
+99.853432893963685
+113.76203173406148
+81.801245628903658
+65.397194734319953];
+
+% Safety Factor Computation
+SF= 250./MaxEqStress
+
